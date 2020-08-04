@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+body {
+    font-family: "Lato", sans;
+}
+
+.nav-container {
+    background: #F8F8F8;
+    height: 105px;
+
+}
+
+.wrapper {
+    width: 1142px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 105px;
+}
+
+nav ul {
+    display: flex;
+
+    
+}
+.nav-items li {
+    list-style: none;
+    margin-right: 100px;
+}
+
+.nav-items li a{
+    font-family: Roboto;
+
+    font-size: 36px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+    text-decoration: none;
+ 
+}
+
+.nav-items li:nth-last-of-type(1) {
+    margin: 0;
+}
+
+/*header*/
+.header-container {
+    background: linear-gradient(105.33deg, #A81AFF 6.05%, rgba(223, 26, 255, 0.59) 82.74%);
+    height: calc(100vh - 105px);
+    display: flex;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size:88px;
+    line-height: 120px;
+
+    color: #F0F0F0;
+    margin-bottom:24px;
+}
+
+header p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+    width: 455px;
+    color: #F0F0F0;
+    margin-bottom:36px;
+
+}
+
+header a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 42px;
+    text-align: center;
+    text-decoration: none;
+
+    color: #F0F0F0;
+
+    background: #4791FF;
+    border-radius: 100px;
+
+    padding: 12px 30px;
+
+}
+
+header .hero-image {
+    position:relative;
+    transform: matrix(1, 0.09, -0.09, 1, 0, 0);  
+  
+}
+header .hero-image img {
+    transition: 300ms;
+    position: relative;
+    z-index: 1;
+  }
+
+header .hero-image .photo-bg {
+    
+    position: absolute;
+    width: 504.88px;
+    height: 565px;
+    left: -20px;
+    top: -20px;
+
+    background: #FFFFFF;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+
