@@ -1337,6 +1337,7 @@ ul.sub-menu li a {
 .main-menu-indicator {
     display: block;
     border: none;
+    color: #000;
     padding: 0;
     cursor: pointer;
     z-index: 1000;
@@ -2070,7 +2071,7 @@ ul.client-thumb-2 li a img:hover{
     position: absolute;
     height: 0;
     width: 0;
-    border:  solid;
+    border-style: solid;
     border-image-source: linear-gradient(-220deg, #E84E46 0%, #F5C634 56.77%, #7AD3D4 72.92%);
     border-image-slice: 1;
 
