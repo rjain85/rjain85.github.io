@@ -2032,7 +2032,7 @@ ul.client-thumb-2 li a img:hover{
 }
 /*portfolio square color */
 .img .overlay-thumb:hover {
-    background-color: rgba(252, 186, 1, .9);
+    background-color: rgba(255, 204, 37, 0.9);
     
 }
 
@@ -2070,7 +2070,10 @@ ul.client-thumb-2 li a img:hover{
     position: absolute;
     height: 0;
     width: 0;
-    border: solid #000;
+    border:  solid;
+    border-image-source: linear-gradient(-220deg, #E84E46 0%, #F5C634 56.77%, #7AD3D4 72.92%);
+    border-image-slice: 1;
+
     border-width: 0;
     transition: all ease-in-out;
     -webkit-transition: all ease-in-out;
