@@ -2071,7 +2071,7 @@ ul.client-thumb-2 li a img:hover{
     position: absolute;
     height: 0;
     width: 0;
-    border-style: solid;
+    border:  solid transparent;
     border-image-source: linear-gradient(-220deg, #E84E46 0%, #F5C634 56.77%, #7AD3D4 72.92%);
     border-image-slice: 1;
 
