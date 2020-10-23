@@ -260,6 +260,10 @@
 	ul.client-thumb li{
 		width: 49%;
 	}
+
+	menuOptions {
+		font-size: 50px;
+	}
 }
 
 /* 2. Medium devices (desktops, 991px and Down) */
@@ -307,6 +311,9 @@
 	}
 	.slide .slide__text {
 	    background-color: #7beec7;
+	}
+	.menu-content {
+		display: none;
 	}
 
 }

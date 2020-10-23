@@ -52,6 +52,9 @@
 
     <!-- Modernizer & Respond js -->
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.rawgit.com/balzss/luxbar/ae5835e2/build/luxbar.min.css">
+
 </head>
 
 <body>
@@ -59,58 +62,20 @@
     <!-- Preloader -->
     <div class="cover"></div>
 
+
     <div class="header">
         <div class="container">
-            <div class="logo">
-                <a href="index.html">
-                    <img src="img/riyalogo.png" alt="Logo">
-                </a>
-            </div>
             
-            <!-- Menu Hamburger (Default) -->
-            <button class="main-menu-indicator" id="open-button">
-                <span class="line"></span>
-            </button>
-
-            <div class="menu-wrap" style="background-image: url(img/navred.png)">
-                <div class="menu-content">
-                    <div class="navigation">
-                        <span class="pe-7s-close close-menu" id="close-button"></span>
-                        
-                    </div>
-                    <nav class="menu">
-                        <div class="menu-list">
-                            <ul>
-                                <li><a href="index.html">Home</a></li>
-                                
-                                <li class="menu-item-has-children"><a href="portfolio.html">Portfolio</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="#"> - Automn</a></li>
-                                    </ul>
-                                </li>
-                                
-                                <li><a href="rjainresume6.pdf", target="_blank">Resume</a></li>
-                            </ul>
-                        </div>
-                    </nav>
-
-                    <div class="hidden-xs">
-                        <div class="menu-social-media">
-                            <ul>
-                               <li><a href="https://github.com/rjain85" target="_blank"><i class="iconmoon-github"></i></a></li>
-                               <li><a href="https://www.linkedin.com/in/riya-jain-440a44177" target="_blank"><i class="iconmoon-linkedin2"></i></a></li>
-                            </ul>
-                        </div>
-
-                        <div class="menu-information">
-                            <ul>
-                                <li><span>E:</span> info@mail.com</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- End of Menu Hamburger (Default) -->
+            <a href="index.html" class="logo"><img src="img/riyalogo.png" 
+                alt="Logo">
+            </a>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul class="menu">
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="rjainresume6.pdf">Resume</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
 
         </div>
     </div>
@@ -156,7 +121,7 @@
                         
                         <hr>
                         <h4>
-                             I've designed virtual reality experiences at  <a href="https://www.statefarm.com/" target="_blank"> <b>State Farm</b></a>. I'm a project lead at <a href="https://www.designinnovationillinois.com/" target="_blank"><b>Design Innovation Illinois</b></a>. I'm learning at the&nbsp;<a href="https://cs.illinois.edu/" target="_blank"><b>University of Illinois at Urbana-Champaign</b></a>.
+                             I've designed virtual reality experiences at <a href="https://www.statefarm.com/" target="_blank"> <b>State Farm</b></a>. I'm a project lead at <a href="https://www.designinnovationillinois.com/" target="_blank"><b>Design Innovation Illinois</b></a>. I'm learning at the&nbsp;<a href="https://cs.illinois.edu/" target="_blank"><b>University of Illinois at Urbana-Champaign</b></a>.
                             
                         </h4>
                         
@@ -217,7 +182,9 @@
             <h2>My Work</h2>
             <br>
             <hr>   
+            <!--
             <h6>Check out my projects!</h6>
+            -->
         </div>
         <div class="portfolio-wrapper">
             
@@ -247,8 +214,8 @@
                             <div class="overlay-thumb">
                                 
                                 <div class="details">
-                                    <span class="title">Automn</span>
-                                    <span class="info"> February 2020 – May 2020</span>
+                                    <span class="title">Work In Progress</span>
+                                 <!--<span class="info"> February 2020 – May 2020</span>--> 
                                 </div>
                                 <span class="btnBefore"></span>
                                 <span class="btnAfter"></span>
@@ -278,18 +245,7 @@
             
         </div>
     </div>
-    <div class="container margin-top">
-        <div class="portfolio-controls">
-            <div class="btn-project home-btn">
-                <a href="rjainresume6.pdf" data-hover="Resume">
-                    
-                    <i class="pe-7s-file"></i>
-                 
-                </a>
-            </div>
-            
-        </div>
-    </div>
+    
    
     <div class="footer margin-top">
         <div class="container">
@@ -345,5 +301,6 @@
     <script src="js/vendor/wow.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/ajax.js"></script>
+    
 </body>
 </html>
