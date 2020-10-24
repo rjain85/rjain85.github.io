@@ -1,4 +1,18 @@
 
+@media (max-width: 420px) {
+	.margin-top {
+		margin-top: 25px;
+	}
+	.footer {
+		width: 100%;
+		float: left;
+		float: bottom;
+		background: transparent;
+		min-height: 100px;
+		
+	}
+}
+
 /* 1. Small devices (tablets, 768px and Up) */
 @media (min-width: 768px) { 
 
@@ -66,7 +80,7 @@
 		-moz-osx-font-smoothing: grayscale;
 	}
 
-
+	
 
 }
 
@@ -98,7 +112,8 @@
 	}
 
 	.cd-headline{
-		font-size: 25px;
+		font-size: 50px;
+		letter-spacing: .1em;
 	}
 
 	.menu-wrap{
@@ -219,15 +234,23 @@
 	.our-studio-content{
 		padding:15px; 
 	}
+	.footer {
+		width: 100%;
+		float: left;
+		float: bottom;
+		background: transparent;
+		min-height: 200px;
+		margin-top: 25vh;
+	}
 
 }
 
 /* 2. Small devices (tablets, 767px and Down) */
 @media (max-width: 767px) {
-
+	
 	.footer-inner{
 		text-align: center;
-		height: 200px;
+		height: 100px;
 	}
 
 	.kenburnsy {
@@ -261,9 +284,7 @@
 		width: 49%;
 	}
 
-	menuOptions {
-		font-size: 50px;
-	}
+	
 }
 
 /* 2. Medium devices (desktops, 991px and Down) */
@@ -314,6 +335,14 @@
 	}
 	.menu-content {
 		display: none;
+	}
+	.footer {
+		width: 100%;
+		float: left;
+		float: bottom;
+		background: transparent;
+		min-height: 200px;
+		margin-top: 5vh;
 	}
 
 }

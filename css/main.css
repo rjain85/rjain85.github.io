@@ -188,12 +188,11 @@ h3 {
     font-weight: bold;
 }
 h4 {
-    font-size: 18px;
+    font-size: 22px;
+    
 }
 h4 span {
-
     font-weight: bold;
-
 }
 h5 {
     font-size: 50px;
@@ -550,7 +549,7 @@ a:hover>span.site-name{
     margin-left:6%;
 }
 .cd-headline {
-    font-size: 30px;
+    font-size: 70px;
     margin-top: 40px;
     color: #E84E46;
     font-weight: 100;
@@ -597,7 +596,7 @@ a:hover>span.site-name{
     background-color: #000;
 }
 .cd-headline.clip b {
-    font-family: 'Open Sans's;
+    font-family: 'Open Sans';
     opacity: 0;
 }
 .cd-headline.clip b.is-visible {
@@ -1504,7 +1503,7 @@ ul.sub-menu li a {
 .history-wrapper h4 {
     font-family: 'Open Sans';
     font-weight: 400;
-    line-height: 24px;
+    line-height: 2;
 }
 /* Services */
 .services-home-page {
@@ -1825,6 +1824,7 @@ ul.client-thumb-2 li a img:hover{
 -------------------------------------------------------------- */
 .portfolio-wrapper {
     clear: both;
+    width:100%
 }
 /* Filter Button */
 .nav {
@@ -2935,6 +2935,7 @@ input[type="text"] {
     height: 200px;
     display: table;
     width: 100%;
+    
 }
 .footer-content {
     display: table-cell;
