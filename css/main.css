@@ -549,11 +549,11 @@ a:hover>span.site-name{
     margin-left:6%;
 }
 .cd-headline {
-    font-size: 70px;
+    font-size: 60px;
     margin-top: 40px;
     color: #E84E46;
     font-weight: 100;
-    letter-spacing: 3pt;
+    letter-spacing: .1em;
 }
 .cd-words-wrapper {
     display: inline-block;

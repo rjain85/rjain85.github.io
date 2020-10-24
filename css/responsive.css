@@ -1,5 +1,9 @@
-
-@media (max-width: 420px) {
+/*
+@media all and (min-width: 300px) and (max-width: 420px) {
+	.cd-headline{
+		font-size: 6px;
+		letter-spacing: .05em;
+	}
 	.margin-top {
 		margin-top: 25px;
 	}
@@ -11,7 +15,7 @@
 		min-height: 100px;
 		
 	}
-}
+}*/
 
 /* 1. Small devices (tablets, 768px and Up) */
 @media (min-width: 768px) { 
@@ -26,7 +30,7 @@
 
 	.our-story-content-inner{
 		padding-left: 30px;
-		padding-right:30px; 
+		padding-right: 30px; 
 	}
 
 	.project-information .table {
@@ -111,10 +115,11 @@
 		font-size: 48px;
 	}
 
+	/*
 	.cd-headline{
 		font-size: 50px;
 		letter-spacing: .1em;
-	}
+	}*/
 
 	.menu-wrap{
 		width: 100%;
@@ -282,6 +287,11 @@
 
 	ul.client-thumb li{
 		width: 49%;
+	}
+
+	.cd-headline{
+		font-size: 25px;
+		letter-spacing: .1em;
 	}
 
 	
