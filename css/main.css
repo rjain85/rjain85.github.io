@@ -83,15 +83,15 @@ body {
     cursor: pointer;
 }
 ::-moz-selection {
-    background: #060606;
+    background: #E84E46;
     color: #fff;
 }
 ::selection {
-    background: #060606;
+    background: #E84E46;
     color: #fff;
 }
 ::-moz-selection {
-    background: #060606;
+    background: #E84E46;
     color: #fff;
 }
 ::-webkit-input-placeholder {
