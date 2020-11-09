@@ -180,7 +180,7 @@ h2 {
     margin-top: 40px;
     color: #E84E46;
     font-weight: 700;
-    letter-spacing: 3pt;   
+    letter-spacing: 1.3pt;   
 
 }
 h3 {
@@ -189,6 +189,7 @@ h3 {
 }
 h4 {
     font-size: 22px;
+
     
 }
 h4 span {
@@ -210,8 +211,6 @@ h7 {
     color: #111111;
     clear: both;
     padding-bottom: 5px;
-
-
 }
 h1,
 h3,
@@ -219,7 +218,6 @@ h4,
 h5,
 h6{
     font-family: 'Open Sans', sans-serif;
-    letter-spacing: 1.3pt;
     color: #111111;
     clear: both;
     padding-bottom: 5px;
@@ -2012,6 +2010,8 @@ ul.client-thumb-2 li a img:hover{
     transform: scale(1.1);
     transition: -webkit-transform 3s;
     transition: transform 0.5s;
+    /*filter: blur(1px);
+    -webkit-filter: blur(1px);*/
 }
 .overlay-thumb a.main-portfolio-link {
     position: absolute;
@@ -2021,7 +2021,7 @@ ul.client-thumb-2 li a img:hover{
     height: 100%;
     padding: 45px;
     z-index: 4;
-    cursor: url(../img/cursor.png), auto;
+    cursor: url(../img/cursorSmall.png), auto;
 }
 .img .overlay-thumb {
     position: absolute;
