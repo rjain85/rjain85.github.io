@@ -36,11 +36,13 @@
     position: absolute;
     right: 100%;
     width: 100%;
-    top: 50%;
-    height: 2px;
+    top: 0%;
+    height: 5px;
     font-size: 12px;
     background: linear-gradient(90deg, #E84E46 0%, #F5C634 45.83%, #F5C634 56.77%, #7AD3D4 72.92%);
-    color: #4a4a4a;
+    color: linear-gradient(90deg, #E84E46 0%, #F5C634 45.83%, #F5C634 56.77%, #7AD3D4 72.92%);
+
+    /*color: #4a4a4a;*/
     line-height: 60px;
     font-weight: bold;
     z-index: 9999999;
