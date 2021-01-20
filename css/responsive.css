@@ -290,8 +290,19 @@
 	}
 
 	.cd-headline{
-		font-size: 25px;
-		letter-spacing: .1em;
+		font-size: 28px;
+		letter-spacing: .05em;
+		margin-bottom: 20px;
+	}
+
+	h2 {
+		font-size: 20px;
+	}
+
+	h4 {
+		font-size: 15px;
+		letter-spacing: .05em;
+
 	}
 
 	
