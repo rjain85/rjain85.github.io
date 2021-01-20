@@ -84,6 +84,10 @@
 		-moz-osx-font-smoothing: grayscale;
 	}
 
+	.smallScreen {
+		display: none;
+	}
+
 	
 
 }
@@ -303,6 +307,10 @@
 		font-size: 15px;
 		letter-spacing: .05em;
 
+	}
+
+	.largeScreen {
+		display: none;
 	}
 
 	
