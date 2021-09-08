@@ -1,0 +1,56 @@
+.mockupFullStrip {
+    width: 100%;
+    background: linear-gradient(180deg, #FFAF65 0%, #FF8165 100%);
+    
+}
+.mockupText {
+    color: white;
+    font-size: xx-large;
+    font-family: 'Lato', sans-serif;
+
+}
+/* 
+*/
+.fullStrip {
+    width: 100%;
+    background-color: #f7f7f7; 
+    padding: 50px;   
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.attentionText {
+    font-weight: 500;
+    line-height: 140%;
+    font-family: 'Lato', sans-serif;
+}
+.attentionHeader {
+    font-size: 12pt;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+
+    
+}
+
+.statement {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1.pt;
+    padding-top: 30px;   
+
+}
+
+.captionContainer {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 15%;
+}
+
+
+.quotes {
+    font-family: 'Lato', sans-serif;
+    color: #646464;
+}
